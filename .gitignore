@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Env config
+.env
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Hardhat temporary files
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+gm-log.json
+token-log.json
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Abaikan semua file Solidity
+contracts/**/*.sol
+
+# Kecualikan dua file spesifik agar tetap masuk Git
+!contracts/CounterContract.sol

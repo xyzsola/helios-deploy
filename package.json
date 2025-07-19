@@ -1,0 +1,25 @@
+{
+  "name": "helios-deploy",
+  "version": "1.0.0",
+  "description": "Deploy smart contract to Helios",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "deploy:contract": "npx hardhat run --network heliosTestnet scripts/deploy.js"
+  },
+  "keywords": [
+    "helios",
+    "smart-contract",
+    "hardhat"
+  ],
+  "author": "Solasido",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.22.1"
+  }
+}
