@@ -4,7 +4,8 @@
   "description": "Deploy smart contract to Helios",
   "main": "scripts/deploy.js",
   "scripts": {
-    "deploy:contract": "npx hardhat run --network heliosTestnet scripts/deploy.js"
+    "deploy:contract": "npx hardhat run --network heliosTestnet scripts/deploy.js",
+    "deploy:chronos": "npx hardhat run --network heliosTestnet scripts/chronos.js"
   },
   "keywords": [
     "helios",
