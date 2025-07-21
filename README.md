@@ -17,7 +17,7 @@ This project uses Hardhat to manage and deploy smart contracts. There are two ma
 
 1.  **Clone the Repository**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/xyzsola/helios-deploy
     cd helios-deploy
     ```
 
